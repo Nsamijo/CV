@@ -1,0 +1,66 @@
+/**********************************************Elements style ******************************************/
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  margin: 0 auto;
+  font-size: 50px;
+  font-family: 'Sacramento', cursive;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  margin: 0 auto;
+}
+
+span {
+  text-decoration: underline;
+}
+
+/**********************************************Class style ******************************************/
+.top-container {
+  positon: relative;
+  background-color: #a3d2ca;
+  margin-bottom: 0px;
+  padding-bottom: 0;
+  padding-top: 100px;
+}
+.middle-container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.bottom-container {
+
+}
+
+.skills {
+  padding-bottom: 20px;
+}
+
+.cloud {
+  position: absolute;
+  top: 50px;
+  right: 400px;
+}
+
+.cloud-2 {
+  position: absolute;
+  top: 150px;
+}
+
+
+/**********************************************ID style ******************************************/
+#header-intro {
+  margin-top: 0px;
+}

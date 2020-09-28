@@ -1,136 +1,65 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" dir="ltr">
 
 <head>
-  <!-- meta specifies associated data. like charset => File encoding -->
   <meta charset="utf-8">
-  <!-- this description shows up in the search enginge ex: google -->
-  <meta descpition="A personal website highlighting all of my, Nathan, achievements and qualifications.">
-  <title>Nathan's Personal Site</title>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat:wght@300&family=Sacramento&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="images/favicon.ico">
+  <title>Nathan K. Samijo</title>
 </head>
 
 <body>
-  <table cellspacing="20">
-    <tr>
-      <td><img src="images\nathan.png" alt="nathan profile picture"></td>
-      <td>
-        <h1>Nathan Samijo</h1>
-        <p>Student at the <em><a href="https://www.hogeschoolrotterdam.nl/opleidingen/bachelor/informatica/voltijd/" target="_blank">University of Applied Science Rotterdam.</a></em></p>
-        <p>I am a 19 year old Surinamese student studying Computer Science in the Netherlands at the <a href="https://www.hogeschoolrotterdam.nl/" target="_blank">University of Applied Sciences Rotterdam.</a></p>
-      </td>
-    </tr>
-  </table>
-  <hr>
-  <h3>Education</h3>
-  <ul>
-    <li><a href="https://nl-nl.facebook.com/HenryNHassankhanScholengemeenschap" target="_blank">Henry Hassankhan Scholengemeenschap</a> (VWO - S package)</li>
-    <ul>
-      <li>Math A</li>
-      <li>Math B</li>
-      <li>Chemistry</li>
-      <li>Physics</li>
-      <li>Biology</li>
-    </ul>
-    <li>University of Applied Sciences Rotterdam (Current - 2nd year)</li>
-    <li>The Complete 2020 Web Development Bootcamp - Udemy (Uncomplete)</li>
-  </ul>
-  <hr>
-  <h3>Work Experience</h3>
-  <table cellspacing="10">
-    <thead>
-      <tr>
-        <td>Period</td>
-        <td>Function</td>
-        <td>Company</td>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>2010 - 2018</td>
-        <td>Maintance of plants, flowers and trees</td>
-        <td>Family Business</td>
-      </tr>
-      <tr>
-        <td>2019 - Current</td>
-        <td>Stock clerk</td>
-        <td>Albert Heijn</td>
-      </tr>
-    </tbody>
-  </table>
-  <hr>
-  <h3>Skills</h3>
-  <!-- nested table -->
-  <table cellspacing="10">
-    <tr>
-      <td>
-        <table>
-          <tr>
-            <td>Java</td>
-            <td>&#11088;&#11088;</td>
-          </tr>
-          <tr>
-            <td>Python</td>
-            <td>&#11088;&#11088;&#11088;&#11088;</td>
-          </tr>
-          <tr>
-            <td>Bash</td>
-            <td>&#11088;&#11088;</td>
-          </tr>
-          <tr>
-            <td>HTML</td>
-            <td>&#11088;&#11088;</td>
-          </tr>
-          <tr>
-            <td>English</td>
-            <td>&#11088;&#11088;&#11088;</td>
-          </tr>
-          <tr>
-            <td>JSON</td>
-            <td>⭐⭐⭐</td>
-          </tr>
-        </table>
-      </td>
-      <td>
-        <table>
-          <tr>
-            <td>SQL</td>
-            <td>&#11088;</td>
-          </tr>
-          <tr>
-            <td>C#</td>
-            <td>&#11088;&#11088;&#11088;</td>
-          </tr>
-          <tr>
-            <td>Javascript</td>
-            <td>&#11088;</td>
-          </tr>
-          <tr>
-            <td>CSS</td>
-            <td>&#11088;</td>
-          </tr>
-          <tr>
-            <td>Dutch</td>
-            <td>&#11088;&#11088;&#11088;</td>
-          </tr>
-          <tr>
-            <td>Photography</td>
-            <td>⭐</td>
-          </tr>
-        </table>
-      </td>
-    </tr>
-  </table>
+  <div class="top-container">
+    <img class="cloud" src="images/cloud.png" alt="cloud-img">
+    <h1 id="header-intro">I'm Nathan.</h1>
+    <p>a <span>pro</span>grammer</p>
+    <img class="cloud-2" src="images/cloud.png" alt="cloud-img">
+    <img class="mountain" src="images/mountain.png" alt="mountain-img">
+  </div>
 
-  <table>
-    <tr>
-      <td>
-        <h3><a href="hobbies.html">My Hobbies</a></h3>
-      </td>
-      <td>
-        <h3><a href="contact.html">Contact me</a></h3>
-      </td>
-    </tr>
-  </table>
+  <div class="middle-container">
+    <div class="profile">
+      <img src="images/man.png" alt="man-img">
+      <h2>Hello.</h2>
+      <p>I'm am a programmer and Web Developer. Currently I am a second year Computer Science student at the Rotterdam University of Applied Sciences.</p>
+    </div>
+    <hr>
+
+    <div class="skills">
+      <h2>My Skills.</h2>
+      <div class="skill-row">
+        <img class="programming" src="https://media.giphy.com/media/iIGT8Y1rOYhBpdHh1C/giphy.gif" alt="programming-img">
+        <h3>Programming</h3>
+        <p>I came in contact with programming at the age of 15. Since then I've programmed in multiple languages with some of them being Java, Python, C#(.NET)</p>
+      </div>
+      <div class="skill-row">
+        <img class="orchid" src="https://media.giphy.com/media/JO9clxOovCgYlDkssC/giphy.gif" alt="orchid-img">
+        <h3>Floriculture</h3>
+        <p>Growing up on a flower farm I learned many tricks and insights on the cultivation of flowers, mainly orchids.</p>
+      </div>
+    </div>
+    <hr>
+
+    <div class="contact-me">
+      <h2>Get In Touch</h2>
+      <h3>About me.</h3>
+      <p>I am currently a freelancer. Feel free to contact me for freelance, part-time or full-time work.</p>
+      <a class="btn" href="mailto:nsamijo@gmail.com">CONTACT ME</a>
+    </div>
+
+  </div>
+
+
+  <div class="bottom-container">
+    <a class="footer-link" href="https://nl.linkedin.com/public-profile/in/nathan-samijo-535638171/nl-nl?challengeId=AQE1jPEnaNO9OAAAAXTQDaq5CTz6CvDYaxvgGBK0ObT_ZV7dEhdWdscFGSTCK3OfZAa2hdprbSvHlk2tqWaFifESVSn7gojH_A&submissionId=ceba997c-a4ab-3816-0c26-a434f07abf54" target="_blank">LinkedIn</a>
+    <p>© 2020 Nathan Samijo.</p>
+  </div>
+
+  <div class="credits">
+    <p>Icons made by <a href="https://www.flaticon.com/authors/vectors-market" title="Vectors Market">Vectors Market</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a></p>
+  </div>
+
 </body>
 
 </html>
