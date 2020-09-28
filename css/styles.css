@@ -1,4 +1,8 @@
 /**********************************************Elements style ******************************************/
+a {
+  color: #11999E;
+}
+
 body {
   margin: 0;
   text-align: center;
@@ -6,17 +10,20 @@ body {
 }
 
 h1 {
-  margin: 0 auto;
-  font-size: 562.5%;
+  margin: 50px auto 0 auto;
+  color: #66BFBF;
+  font-size: 5.625em;
   font-family: 'Sacramento', cursive;
 }
 
 h2 {
+  color: #66BFBF;
   font-family: 'Montserrat', sans-serif;
-  font-size: 20rem;
+  font-size: 2.5rem;
 }
 
 h3 {
+  color: #11999E;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -30,8 +37,8 @@ span {
 
 /**********************************************Class style ******************************************/
 .top-container {
-  positon: relative;
-  background-color: #a3d2ca;
+  position: relative;
+  background-color: #d9ecf2;
   margin-bottom: 0;
   padding-bottom: 0;
   padding-top: 9%;
@@ -47,15 +54,19 @@ span {
 
 .cloud {
   position: absolute;
-  top: 10%;
-  right: 30%;
+  top: 9%;
+  right: 17%;
 }
 
 .cloud-2 {
   position: absolute;
-  top: 27%;
+  top: 40%;
+  left: 27%;
 }
 
+.mountain {
+  margin-top: 230px;
+}
 
 /**********************************************ID style ******************************************/
 #header-intro {
