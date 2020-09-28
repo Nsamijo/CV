@@ -7,7 +7,7 @@ body {
 
 h1 {
   margin: 0 auto;
-  font-size: 50px;
+  font-size: 562.5%;
   font-family: 'Sacramento', cursive;
 }
 
@@ -31,32 +31,28 @@ span {
 .top-container {
   positon: relative;
   background-color: #a3d2ca;
-  margin-bottom: 0px;
+  margin-bottom: 0;
   padding-bottom: 0;
-  padding-top: 100px;
+  padding-top: 9%;
 }
 .middle-container {
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-
-.bottom-container {
-
+  padding-top: 2%;
+  padding-bottom: 2%;
 }
 
 .skills {
-  padding-bottom: 20px;
+  padding-bottom: 2%;
 }
 
 .cloud {
   position: absolute;
-  top: 50px;
-  right: 400px;
+  top: 10%;
+  right: 30%;
 }
 
 .cloud-2 {
   position: absolute;
-  top: 150px;
+  top: 25%;
 }
 
 
