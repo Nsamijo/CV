@@ -55,14 +55,14 @@ span {
 
 .cloud {
   position: absolute;
-  top: 9%;
-  right: 17%;
+  top: 80px;
+  right: 300px;
 }
 
 .cloud-2 {
   position: absolute;
-  top: 40%;
-  left: 27%;
+  top: 350px;
+  left: 320px;
 }
 
 .mountain {
