@@ -28,6 +28,13 @@ h3 {
   font-family: 'Montserrat', sans-serif;
 }
 
+hr {
+  color: #EAF6F6;
+  border-top: dotted 4px;
+  margin-top: 20px;
+  width: 3%;
+}
+
 p {
   margin: 0 auto;
 }
@@ -39,14 +46,25 @@ span {
 /**********************************************Class style ******************************************/
 .top-container {
   position: relative;
-  background-color: #d9ecf2;
-  margin-bottom: 0;
+  background-color: #EAF6F6;
   padding-bottom: 0;
-  padding-top: 9%;
+  padding-top: 5.4%;
 }
+
 .middle-container {
   padding-top: 2%;
   padding-bottom: 2%;
+}
+
+.bottom-container {
+  padding-top: 3%;
+  padding-bottom: 3%;
+  background: #66BFBF;
+}
+
+.info {
+  color: #EAF6F6;
+  padding-top: 20px;
 }
 
 .skills {
@@ -69,7 +87,68 @@ span {
   margin-top: 15px;
 }
 
-/**********************************************ID style ******************************************/
-#header-intro {
-  margin-top: 0px;
+.code {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
 }
+
+.orchid {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.skill-row {
+  text-align: left;
+  line-height: 200%;
+  margin: 100px auto 100px auto;
+  width: 50%;
+}
+
+.description {
+  color: #40514E;
+  margin: 0 auto 0 auto;
+  width: 50%;
+}
+
+.BUTTON_PAV {
+  background: #11999E;
+  background-image: -webkit-linear-gradient(top, #11999E, #66BFBF);
+  background-image: -moz-linear-gradient(top, #11999E, #66BFBF);
+  background-image: -ms-linear-gradient(top, #11999E, #66BFBF);
+  background-image: -o-linear-gradient(top, #11999E, #66BFBF);
+  background-image: linear-gradient(to bottom, #11999E, #66BFBF);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  color: #FFFFFF;
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 100;
+  margin-top: 10px;
+  padding: 5px;
+  -moz-box-shadow: 1px 1px 20px 0px #000000;
+  text-shadow: 1px 1px 20px #000000;
+  border: solid #11999E 1px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.BUTTON_PAV:hover {
+  border: solid #337FED 1px;
+  background: #11999E;
+  background-image: -webkit-linear-gradient(top, #11999E, #11999E);
+  background-image: -moz-linear-gradient(top, #11999E, #11999E);
+  background-image: -ms-linear-gradient(top, #11999E, #11999E);
+  background-image: -o-linear-gradient(top, #11999E, #11999E);
+  background-image: linear-gradient(to bottom, #11999E, #11999E);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+/**********************************************ID style ******************************************/
