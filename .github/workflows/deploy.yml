@@ -1,0 +1,30 @@
+name: CI/CD
+
+on:
+  # Triggers the workflow on pull request events for the "master" branch
+  pull_request:
+    types:
+     [closed]
+    branches:
+    - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    strategy:
+      matrix:
+        node-version: [15.x]
+    
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+    
+    - name: Install and Build
+      run: npm install && npm run build
+      
+    - name: Deploy
+      uses: JamesIves/github-pages-deploy-action@latest
+      with:
+          branch: gh-pages
+          folder: build
